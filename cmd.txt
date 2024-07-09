@@ -1,0 +1,10 @@
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/indextrown/company-project.git
+git push origin main
+
+신입 컴퓨터 폴더이름: freshman
+git clone https://github.com/indextrown/company-project.git freshman
+cd freshman
+code .
