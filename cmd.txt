@@ -8,3 +8,7 @@ git push origin main
 git clone https://github.com/indextrown/company-project.git freshman
 cd freshman
 code .
+git add .
+git commit -m "freshman first commit"
+git checkout -b 'freshman'  // 여기를 아무리 망쳐도 main 영향 안미침
+git push origin freshman
